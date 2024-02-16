@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pengisian</title>
+    <link rel="stylesheet" href="C.css">
+</head>
+<body>
+    <div class="container">  
+    <img src="asset/il.jpeg" alt="Illustrasi Misi">
+        <h1>Selamat Datang di Toko Kami</h1>
+        <p>Misi kami adalah menyediakan produk berkualitas tinggi untuk memenuhi kebutuhan Anda sehari-hari.</p>
+    </div>
+    <form id="allForms" action="send_email.php" method="POST">
+        <!-- Formulir Budaya -->
+        <div class="container">
+            <h2>Budaya</h2>
+            <label for="ide_budaya">Ide:</label>
+            <input type="text" id="ide_budaya" name="ide_budaya" required>
+            <label for="keterangan_budaya">Keterangan:</label>
+            <input type="text" id="keterangan_budaya" name="keterangan_budaya" required>
+        </div>
+        <!-- Formulir Wisata -->
+        <div class="container">
+            <h2>Wisata</h2>
+            <label for="ide_wisata">Ide:</label>
+            <input type="text" id="ide_wisata" name="ide_wisata" required>
+            <label for="keterangan_wisata">Keterangan:</label>
+            <input type="text" id="keterangan_wisata" name="keterangan_wisata" required>
+        </div>
+        <!-- Formulir Sejarah -->
+        <div class="container">
+            <h2>Sejarah</h2>
+            <label for="ide_sejarah">Ide:</label>
+            <input type="text" id="ide_sejarah" name="ide_sejarah" required>
+            <label for="keterangan_sejarah">Keterangan:</label>
+            <input type="text" id="keterangan_sejarah" name="keterangan_sejarah" required>
+        </div>
+        <div class="container"><button type="submit">Submit Semua</button></div>
+    </form>
+</body>
+</html>
